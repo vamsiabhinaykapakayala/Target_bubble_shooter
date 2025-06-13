@@ -13,7 +13,7 @@ let level = 1;
 let levelStartScore = 0;
 let targetSpeed = 2;
 
-const levelBullets = { 1: Infinity, 2: 500, 3: 3500, 4: 4500, 5: 5500 };
+const levelBullets = { 1: Infinity, 2: 35, 3: 40, 4: 45, 5: 50 };
 const levelTargetCounts = { 1: 3, 2: 5, 3: 8, 4: 10, 5: 12 };
 
 const levelBackgrounds = {
