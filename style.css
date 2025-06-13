@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 2px solid white;
+    background-color: black;
+}
+
+#retryButton {
+    display: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    position: absolute;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+#retryButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
